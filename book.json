@@ -7,6 +7,12 @@
         "prism"
     ],
 
+    "pluginsConfig": {
+        "github": {
+            "url": "https://github.com/mySingleLive/forest"
+        }
+    },
+
     "links": {
         "gitbook": false
     }
