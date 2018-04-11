@@ -73,3 +73,5 @@ MyClient myClient;
 ...
 
 Map result = myClient.getShortUrl("https://gitee.com/dt_flys/forest");
+
+```
