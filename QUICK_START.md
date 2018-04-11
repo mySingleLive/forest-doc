@@ -5,7 +5,7 @@
 
 ##### 一个栗子：访问百度短链接REST接口
 
-### 添加Maven依赖
+#### 1. 添加Maven依赖
 
 
 ```xml
@@ -47,7 +47,7 @@
 
 ```
 
-### 创建一个Interface作为远程调用接口
+### 2. 创建一个Interface作为远程调用接口
 
 
 ```java
@@ -76,7 +76,7 @@ public interface MyClient {
 ```
 
 
-### 调用远程接口
+### 3. 调用远程接口
 ```java
 
 ForestConfiguration configuration = ForestConfiguration.configuration();
