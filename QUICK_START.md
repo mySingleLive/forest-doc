@@ -16,10 +16,32 @@
         <version>3.4.1</version>
     </dependency>
 
+    <!-- spring -->
+    <dependency>
+        <groupId>org.springframework</groupId>
+        <artifactId>spring-beans</artifactId>
+        <version>3.2.16.RELEASE</version>
+        <scope>provided</scope>
+    </dependency>
+
+    <dependency>
+        <groupId>org.springframework</groupId>
+        <artifactId>spring-context</artifactId>
+        <version>3.2.16.RELEASE</version>
+        <scope>provided</scope>
+    </dependency>
+
     <!-- forest核心包 -->
     <dependency>
         <groupId>org.forest</groupId>
         <artifactId>forest-core</artifactId>
+        <version>0.1.6</version>
+    </dependency>
+
+    <!-- forest spring扩展包 -->
+    <dependency>
+        <groupId>org.forest</groupId>
+        <artifactId>forest-spring</artifactId>
         <version>0.1.6</version>
     </dependency>
 
